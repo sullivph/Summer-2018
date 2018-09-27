@@ -1,3 +1,4 @@
+# Written by Paul Sullivan
 import datetime
 import json
 import math
