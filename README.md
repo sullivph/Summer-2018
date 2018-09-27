@@ -1,5 +1,5 @@
 # Summer 2018
-A showcase of part of my work as a Computer Vision Research Intern at Vanderbilt University
+*A showcase of part of my work as a Computer Vision Research Intern at Vanderbilt University*
 
 ### Overview
 This summer, I had the pleasure of working with a team of professors and graduate students to build a system that identifies emergency medical procedures conducted on medevacs, relaying the procedure name and timestamp to the patient's destination. This technology will eventually be used to replace communication (i.e., hand-written notes and brief conversations) currently used in the field, allowing EMTs to focus solely on patient care in an emergency situation while providing accurate and detailed information to care centers. In our preliminary design, we run an open-source computer vision algorithm called "OpenPose" on a videofeed of the EMT and the patient that provides us with joint keypoints. 
