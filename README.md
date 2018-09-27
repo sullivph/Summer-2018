@@ -8,7 +8,7 @@ This summer, I had the pleasure of working with a team of professors and graduat
 A large part of my work involved automating the video processing pipeline through AWS and OpenPose (with Python and Shell scripting), and studying the resulting JSON data. As a side project, I decided to create a tool to process and visualize data that will eventually be used to train a convolutional neural network classifier which will aid in the identifying of the medical procedures of interest.
 
 ## Heat Map Generator
-Included in this repository is [heatmapgenerator.py](https://github.com/sullivph/Summer-2018/blob/master/heatmapgenerator.py), the source code for the tool mentioned above. Using Python, along with numpy and PIL, I was able to write code that isolated and visualized the movement of the EMT's hands over time, given the JSON output of the video processing pipeline.
+Included in this repository is [heatmapgenerator.py](https://github.com/sullivph/Summer-2018/blob/master/heatmapgenerator.py), the source code for the tool mentioned above. Using Python, along with numpy and PIL, I was able to write code that isolates and visualizes the movement of the EMT's hands over time, given the JSON output of the video processing pipeline.
 ![Heat Map Generator Diagram](https://i.imgur.com/odtYF8h.png)
 
 A simple implementation as such will ask the user for a .JSON file along with information about the video and a location for the resulting heat map image:
